@@ -31,17 +31,17 @@ selectedDB.once('open', ()=>{
 app.get('/', async (req,res) => {
     try{
         let Products = await DataWarehouse.find();
-        res.render('Landing', {Products} )
+        res.render('Home', {Products} )
     }catch (error) {
         res.status(500).json({message: error.message})
     }
        
     
 })
-app.get('/home', async (req,res) => {
+app.get('/Dashboard', async (req,res) => {
     try{
         let Products = await DataWarehouse.find();
-        res.render('Home', {Products} )
+        res.render('BlackDash', {Products} )
     }catch (error) {
         res.status(500).json({message: error.message})
     }

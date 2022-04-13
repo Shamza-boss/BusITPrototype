@@ -2,79 +2,157 @@
 <%- include("header") %>
 
 <section class="white-section" id="features">
-<!-- Features -->
-<div class="container-fluid tbl">
-  <h2 class="section-heading">CRUD operations for items</h2>
+
+<div class="container-fluid">
+  <h2 class="section-heading">Why indoor Farming?</h2>
   <div class="row">
     <div class="feature-box col-lg-4">
-      <div class="col-lg-12">
-      
-        <form  method="POST"  autocomplete="off">
-          <div class="form-group">
-            <label for="dataPhase" class="form-label">Product id</label>
-                <input id="dataPhase" class="form-control" list="ID" name="ProductID" />
-                <datalist id="ID">
-                  <% for( let i = 0; i < Products.length; i++ ) { %>
-                  <option value="<%= Products[i]._id %>"><%= Products[i]._id %></option>
-                  <% } %>
-                </datalist>
-        </div>
-            <div class="form-group">
-              <label for="itemNae" class="form-label">Item name</label>
-              <input type="text" class="form-control" id="itemNae" name="productName" placeholder="Light">
-            </div>
-            <div class="form-group">
-                <label for="datatPhase" class="form-label">Current Phase</label>
-                    <input  id="dataPhase" class="form-control" list="currentPhase" name="productPhase" />
-                    <datalist id="currentPhase">
-                      <option value="Manufacturing">Manufacturing</option>
-                      <option value="Testing">Testing</option>
-                      <option value="Storage">Storage</option>
-                      <option value="Sold">Sold</option>
-                    </datalist>
-            </div>
-            <button type="submit" class="but btn btn-secondary" formaction="/Products">View</button>
-            <button type="submit" class="but btn btn-primary" formaction="/Products/add">Add</button>
-            <button type="submit" class="but btn btn-danger" formaction="/Products/Delete">Delete</button>
-            <button type="submit" class="but btn btn-warning" formaction="/Products/update">Update</button>
-            <button type="submit" class="but btn btn-info" formaction="/Products/view/id">View ID </button>
-          </form>
+      <i class="icon fas fa-check-circle fa-4x"></i>
+      <h3 class="feature-title">Crop production is consistent </h3>
+      <p>Crops grow in a healthier and safer environment without chemicals or pesticides, therfore being reliable all year round.</p>
+    </div>
+
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-gift fa-4x"></i>
+      <h3 class="feature-title">Self sufficient with solar panels</h3>
+      <p>Energy is highly efficient with the use of solar panels and LEDs. dont shed your load.</p>
+    </div>
+
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-award fa-4x"></i>
+      <h3 class="feature-title">Reduction in water demands</h3>
+      <p>Hydrophonic system ensures that water is recycled and reused without having to undergoe evaporation</p>
+    </div>
+  </div>
+</div>
+</section><!-- Pricing -->
+
+<section class="colored-section" id="AboutUS" >
+<h2 class="section-heading">How does it work?</h2>
+<div class="row row2" >
+
+  
+
+  <div class="pricing-column col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="price-text colored-section-p">Irrigation: </h3>
+      </div>
+      <div class="card-body">
+        <p>The plants will not have access to rainfall therefore a hydroponics system will be used. The roots will be submerged into a nutrient and water solution.</p>
       </div>
     </div>
-    <div class="feature-box col-lg-8">
-      <div style="overflow-y: auto; height: 400px"class="table-responsive">
-      <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Product ID</th>
-              <th scope="col">Product name</th>
-              <th scope="col">Current Phase</th>
-              <th scope="col">Date modified</th>
-            </tr>
-          </thead>
-          <tbody>
-              <% for( let i = 0; i < Products.length; i++ ) { %>
-                  <tr>
-                      <th scope="row"><%= Products[i]._id %></th>
-                      <td><%= Products[i].ProductName %> </td>
-                      <td><%= Products[i].ProductPhase %></td>
-                      <td><%= Products[i].Date%></td>
-                  </tr>
-              <% } %>
-          </tbody>
-        </table>
+  </div>
+  <div class="pricing-column col-lg-4">
+    <div class="card">
+      <div class="card-header">
+
+        <h3 class="colored-section-p">Sunlight:</h3>
+      </div>
+      <div class="card-body">
+        <p>solar panels will be used to provide sunlight to the crops for growth. Considering weather conditions with lack of sunlight, we will recycle renewable energy. The solar panels will reabsorb energy from the LED lights providing enough light to sustain the crops during bad weather.</p>
       </div>
     </div>
+  </div>
+  <div class="pricing-column col-lg-4">
+    <div class="card">
+      <div class="card-header">
+      <h3 class="colored-section-p">PH levels</h3>
+
+      </div>
+      <div class="card-body">
+        <p>The PH and Electrical Conductivity (EC) levels will be monitored and maintained according to different crops.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+</section>
+
+<section class="white-section" id="features">
+
+  <div class="container-fluid">
+    <h2 class="section-heading">Why indoor Farming?</h2>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3 class="feature-title">Crop production is consistent </h3>
+        <p>Crops grow in a healthier and safer environment without chemicals or pesticides, therfore being reliable all year round.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-gift fa-4x"></i>
+        <h3 class="feature-title">Self sufficient with solar panels</h3>
+        <p>Energy is highly efficient with the use of solar panels and LEDs. dont shed your load.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-award fa-4x"></i>
+        <h3 class="feature-title">Reduction in water demands</h3>
+        <p>Hydrophonic system ensures that water is recycled and reused without having to undergoe evaporation</p>
+      </div>
+    </div>
+  </div>
+  </section><!-- Pricing -->
+
+<!-- partners -->
+
+    <section class="white-section partners" id="features">
+        <div class="container-fluid tbl">
+
+            <div class="row">
+                <div style="overflow-y: auto; height: 400px"class="table-responsive">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Product ID</th>
+                        <th scope="col">Product name</th>
+                        <th scope="col">Current Phase</th>
+                        <th scope="col">Date modified</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <% for( let i = 0; i < Products.length; i++ ) { %>
+                            <tr>
+                                <th scope="row"><%= Products[i]._id %></th>
+                                <td><%= Products[i].ProductName %> </td>
+                                <td><%= Products[i].ProductPhase %></td>
+                                <td><%= Products[i].Date%></td>
+                            </tr>
+                        <% } %>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
   </div>
 </div>
 </section>
 
-    
+
+
+
+
+<!-- Call to Action -->
+
+<section class="colored-section" id="ContactUS">
+
+<div id="Contact" class="contact-me">
+        <h2 >Get In Touch</h2>
+        <h3>Change table!</h3>
+        <a class="btnn1" href="/home"><h3 class="btnbold">Click to change</h3></a>
+      </div>
+    </div>
+</section>
+<!-- Footer -->
+
 <footer class="white-section" id="footer">
-  <div class="container-fluid">
-    <p>© Copyright 2021 Shammah Nhlabathi</p>
-    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <a class="nav-link" href="#Contact" style="color: #ff7517"><i class="social-icon fas fa-envelope"></i></a>
+<div class="container-fluid">
+  <p>© Copyright 2021 Shammah Nhlabathi</p>
+  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  <a class="nav-link" href="#Contact" style="color: #ff7517"><i class="social-icon fas fa-envelope"></i></a>
+  
+</div>
+</footer></body>
+
     
-  </div>
-  </footer></body>
