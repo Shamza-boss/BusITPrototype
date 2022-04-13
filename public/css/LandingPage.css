@@ -1,0 +1,341 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /*font-size: 2.5rem;*/
+    font-weight: Regular;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    /*font-size: 2.5rem;*/
+    font-weight: bold;
+}
+ h2{
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 3rem; */
+    font-weight: bold;
+ }
+  h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 20px;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 4.0625rem;
+    color: #f08c49;
+}
+
+.section-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+.but{
+    margin: 3px
+  }
+
+/* Sections */
+
+.colored-section-t {
+    background: #0000;
+    color: #fff;
+}
+.colored-section {
+    background-color: #150050;
+    color: #fff;
+}
+.colored-section-p{
+    color: #000;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+.Consumall_logo {
+    /*height:  ;*/
+    width: 30%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.8rem;
+    font-family: "Ubuntu";
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #04838F;
+    color: #fff;
+    text-align: left;
+}
+
+    #title .container-fluid {
+        padding: 3% 15% 7%;
+    }
+
+/* Title Image */
+
+.title-image {
+    width: 100%;
+    position: absolute;
+    right: 5%;
+}
+
+.certificate-image {
+    width: 90%;
+    transform: rotate(0deg);
+}
+.ctext{
+    margin-top: 80px;
+}
+.ctext1{
+    margin-top: 220px;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+.partners{
+    padding: 100px;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #916BBF;
+    margin-bottom: 1rem;
+}
+
+    .icon:hover {
+        color: #3D2C8D;
+    }
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #04838F;
+}
+
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #04838F;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.press-logo2 {
+    width: 5%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.row2 {
+    width: 80%;
+    margin: auto;
+}
+
+#AboutUS {
+    padding: 100px;
+}
+
+.renewi_medal {
+    width: 34%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.mailing{
+    /* padding-top: 5%; */
+    padding: 0 3% 0 3%;
+    text-align: left;
+}
+
+/*contact us*/
+/* .getintouch {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-top: 1em;
+} */
+
+/* CTA Section */
+.contact-me {
+    width: 80%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: center;
+    padding: 50px;
+}
+/* buttons */
+.btnphone{
+    font-weight: bold;
+    color: white;
+}
+.btn{
+    padding: 15px 15px 8px 15px;
+}
+.btnn1{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #000000;
+    font-family: Brush Script MT;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px 15px 8px 15px;
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color: #f89f56;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btnn1:hover{
+    background: #085F63;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff
+ }
+/* Footer Section */
+
+
+.social-icon {
+    margin: 20px 10px;
+   
+}
+.img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:60%; 
+        height:60%;
+        width: 50%;
+    
+}
+.it{
+    padding: 1%;
+}
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .Consumall_logo {
+        /*height:  ;*/
+        width: 65%;
+    }
+    .renewi_medal {
+        width: 60%;
+    }
+
+    .renewi_logo {
+        /*height:  ;*/
+        width: 25%;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    .pricing-column, .partners{
+        padding: 20px;
+    }
+    #AboutUS{
+        padding: 0px;
+    }
+    .ctext1, .ctext{
+        padding: 0;
+    }
+    #features, #ContactUS{
+        padding-top: 20px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 20px; 
+    }
+    .white-section, .contact-me{
+        padding-top: 20px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 20px; 
+    }
+    .contact-me{
+        margin: 0;
+        width: 100%;
+    }
+}

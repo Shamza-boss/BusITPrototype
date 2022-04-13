@@ -1,0 +1,32 @@
+{
+  "name": "busitproto",
+  "version": "1.0.0",
+  "description": "Prototype for BUSIT week",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^5.13.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shamza-boss/BusITPrototype.git"
+  },
+  "keywords": [
+    "dashboards",
+    "and",
+    "sensors",
+    "and",
+    "energy\\"
+  ],
+  "author": "Shammah Nhlabathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shamza-boss/BusITPrototype/issues"
+  },
+  "homepage": "https://github.com/Shamza-boss/BusITPrototype#readme"
+}

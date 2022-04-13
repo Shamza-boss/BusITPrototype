@@ -1,0 +1,156 @@
+
+<%- include("header") %>
+
+<section class="white-section" id="features">
+
+<div class="container-fluid">
+  <h2 class="section-heading">Why choose us?</h2>
+  <div class="row">
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-check-circle fa-4x"></i>
+      <h3 class="feature-title">Good turnaround time</h3>
+      <p>We are able to respond quickly and our customers appreciate our ability to deliver on the same day when possible.</p>
+    </div>
+
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-gift fa-4x"></i>
+      <h3 class="feature-title">Clients are our priority</h3>
+      <p>We always strive to give our customers the best service.</p>
+    </div>
+
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-award fa-4x"></i>
+      <h3 class="feature-title">We cater to customer needs</h3>
+      <p>Even though our core business is IT related, we provide additional services to our customers, where possible</p>
+    </div>
+  </div>
+</div>
+</section><!-- Pricing -->
+
+<section class="colored-section" id="AboutUS" >
+<h2 class="section-heading">About us</h2>
+<div class="row row2" >
+
+  <div class="pricing-column col-lg-4">
+    <div class="card">
+      <div class="card-header">
+
+        <h3 class="colored-section-p">Special Value</h3>
+      </div>
+      <div class="card-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-column col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="price-text colored-section-p">Footprint</h3>
+      </div>
+      <div class="card-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-column col-lg-4">
+    <div class="card">
+      <div class="card-header">
+      <h3 class="colored-section-p">Established in [year]</h3>
+
+      </div>
+      <div class="card-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="pricing-column col-lg-12">
+      <div class="card">
+        <div class="card-header">
+        <h3 class="colored-section-p">Black economic [power]</h3>
+
+        </div>
+        <div class="card-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
+        </div>
+      </div>          
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+<!-- partners -->
+
+    <section class="white-section partners" id="features">
+        <div class="container-fluid tbl">
+
+            <div class="row">
+                <div style="overflow-y: auto; height: 400px"class="table-responsive">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Product ID</th>
+                        <th scope="col">Product name</th>
+                        <th scope="col">Current Phase</th>
+                        <th scope="col">Date modified</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <% for( let i = 0; i < Products.length; i++ ) { %>
+                            <tr>
+                                <th scope="row"><%= Products[i]._id %></th>
+                                <td><%= Products[i].ProductName %> </td>
+                                <td><%= Products[i].ProductPhase %></td>
+                                <td><%= Products[i].Date%></td>
+                            </tr>
+                        <% } %>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+<!-- Call to Action -->
+
+<section class="colored-section" id="ContactUS">
+
+<div id="Contact" class="contact-me">
+        <h2 >Get In Touch</h2>
+        <h3>Change table!</h3>
+        <a class="btnn1" href="/home"><h3 class="btnbold">Click to change</h3></a>
+      </div>
+    </div>
+</section>
+<!-- Footer -->
+
+<footer class="white-section" id="footer">
+<div class="container-fluid">
+  <p>© Copyright 2021 Shammah Nhlabathi</p>
+  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  <a class="nav-link" href="#Contact" style="color: #ff7517"><i class="social-icon fas fa-envelope"></i></a>
+  
+</div>
+</footer></body>
+
+    
