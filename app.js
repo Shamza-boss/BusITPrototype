@@ -38,6 +38,14 @@ app.get('/', async (req,res) => {
        
     
 })
+app.get('/dashboard', (req, res) => {
+    try {
+        res.render('Dashboard')
+    } catch (error) {
+        res.status(500).json({message: error.message})
+    }
+});
+
 app.get('/home', async (req,res) => {
     try{
         let Products = await DataWarehouse.find();
