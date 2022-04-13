@@ -63,6 +63,14 @@ p {
     color: #000;
 }
 
+/*Dashboard Section*/
+.col-sm-6{
+    padding: 1rem;
+   
+    border-width: 2pc;
+    border-radius: 0.5rem;
+  }
+
 .white-section {
     background-color: #fff;
 }
