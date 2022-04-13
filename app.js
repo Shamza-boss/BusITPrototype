@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const routesPlayers = require('./Routes/DataHandlerScout')
 const app = express();
 const port = process.env.PORT || 1887;
+//please dont hack the DB, no important information there
 const dbname = "mongodb+srv://admin:admin123@cluster0.6leuj.mongodb.net/ProductsDB?retryWrites=true&w=majority";
 
 const DataWarehouse = require('./models/DataSchema');
